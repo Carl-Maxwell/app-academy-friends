@@ -23,17 +23,79 @@
 
   <!-- YOUR HTML HERE -->
   <header class="header">
-    <nav class="header-nav">
+    <nav class="header-nav group">
       <h1 class="header-logo"><a href="#">App Academy Friends</a></h1>
       <ul class="header-list">
-        <li ><a href="#">Notifications</a></li>
+        <li class="notifications"><a href="#">Notifications<span class="badge"> 3 </span> </a>
+          <ul class="notifications-dropdown">
+            <li><a href="#">Constance likes your photo</a></li>
+            <li><a href="#">Tommy left you a comment</a></li>
+            <li><a href="#">Jonathan is now following you</a></li>
+          </ul>
+        </li>
         <li><a href="#">Profile</a></li>
         <li><a href="#">Settings</a></li>
       </ul>
     </nav>
   </header>
 
-  <script src="../shared/js/jquery.js"></script>
+  <section class="content group">
+    <section class="content-header">
+      <h1 class="content-header-title">Sennacy The Great</h1>
+      <button class="add-friend">Add Friend</button>
+    </section>
+    <section class="content-sidebar">
+      <article class="profile-picture">
+        <img src="./../shared/img/cat.jpg">
+        <span class="online">ONLINE</span>
+      </article>
+      <article class="profile-info">
+        <h2>Sennacy</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adispicing elit, sed do eusdmod tempor inciddunt ut labor et dolore magna aliqua
+        </p>
+      </article>
+      <ul class="profile-nav">
+        <li><a href="#">Wall</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Friends</a></li>
+        <li><a href="#">Photos</a></li>
+      </ul>
+    <section class="friend-grid">
+      <a class="thumb"><img src="./../shared/img/cat.jpg"></a>
+      <a class="thumb"><img src="./../shared/img/cat.jpg"></a>
+      <a class="thumb"><img src="./../shared/img/cat.jpg"></a>
+      <a class="thumb"><img src="./../shared/img/cat.jpg"></a>
+      <a class="thumb"><img src="./../shared/img/cat.jpg"></a>
+      <a class="thumb"><img src="./../shared/img/cat.jpg"></a>
+      <a class="thumb"><img src="./../shared/img/cat.jpg"></a>
+      <a class="thumb"><img src="./../shared/img/cat.jpg"></a>
+      <a class="thumb"><img src="./../shared/img/cat.jpg"></a>
+    </section>
+    </section>
+
+    <section class="content-main">
+
+    </section>
+  </section>
+  <footer class="footer">
+    C 2015 App Academy. All rights reserved.
+    <ul>
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#">Terms</a>
+      </li>
+      <li>
+        <a href="#">Privacy</a>
+      </li>
+    </ul>
+  </footer>
+    <script src="../shared/js/jquery.js"></script>
   <script>
 
   </script>
